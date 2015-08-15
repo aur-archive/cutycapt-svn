@@ -1,0 +1,20 @@
+pkgbase = cutycapt-svn
+	pkgdesc = A Qt and WebKit based command-line utility that captures WebKit's rendering of a web page.
+	pkgver = 10
+	pkgrel = 3
+	url = http://cutycapt.sourceforge.net/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = subversion
+	depends = qt5-webkit
+	depends = qt5-svg
+	provides = cutycapt
+	conflicts = cutycapt
+	source = svn://svn.code.sf.net/p/cutycapt/code/
+	source = CutyCapt.patch
+	md5sums = SKIP
+	md5sums = 731dfc6cd7c378faef0139052fd3b784
+
+pkgname = cutycapt-svn
+
